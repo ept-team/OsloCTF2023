@@ -2,3 +2,4 @@
 *.out
 .gdb_history
 flag.txt
+solve.py
