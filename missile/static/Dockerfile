@@ -17,4 +17,4 @@ COPY missile-static .
 RUN chown -R root:root /home/edc
 RUN chmod  -R a+rx /home/edc
 USER edc
-CMD ./ynetd -p 8888 ./missile-static
+CMD ./ynetd -p 8887 ./missile-static

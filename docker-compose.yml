@@ -1,0 +1,32 @@
+version: '3.7'
+services:
+  ex2:
+    build: './ex2'
+    ports:
+      - "8885:8885"
+    restart: always
+  ex3:
+    build: './ex3'
+    ports:
+      - "8886:8886"
+    restart: always
+  missile-static:
+    build: './missile/static'
+    ports:
+      - "8887:8887"
+    restart: always
+  missile-dynamic:
+    build: './missile/dynamic'
+    ports:
+      - "8888:8888"
+    restart: always
+
+
+
+# version: "3.1"
+# services:
+#   app:
+#     build: '.'
+#     ports:
+#         - '56705:20001'
+#     restart: always
