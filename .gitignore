@@ -1,3 +1,4 @@
 *.o
 *.out
 .gdb_history
+flag.txt
