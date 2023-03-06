@@ -34,4 +34,5 @@ int main(int argc, char *argv[]) {
     foo();
     char *str1 = malloc(100);
     empty();
+    printf("the thing is %d\n", thing);
 }
